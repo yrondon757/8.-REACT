@@ -1,3 +1,7 @@
+import UseEffect from "../hooks/UseEffect";
+import UseRef from "../hooks/UseRef";
+import UseState from "../hooks/UseState";
+
 const Hooks = () => {
     const styles = {
         main: "w-full bg-gray-400 h-screen flex flex-col gap-5 justify-center items-center text-white",
@@ -6,6 +10,9 @@ const Hooks = () => {
     return ( 
     <main className={styles.main} style={{backgroundColor: "gray"}}>
         <h1 className={styles.h1}>Pagina de Hooks</h1>
+        <UseState/>
+        <UseEffect/>
+        <UseRef/>
     </main> );
 }
 

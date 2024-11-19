@@ -16,6 +16,7 @@ gestionar el enrutamiento en aplicaciones de una sola pagina (SPA) de manera sen
 // con "as" podemos darle un alias (sobrenombre).
 
 import { BrowserRouter as Router } from 'react-router-dom'
+// HashRouter para revisar la pagina una vez se comprima y se visualiza por el liveserver de visual code.
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
